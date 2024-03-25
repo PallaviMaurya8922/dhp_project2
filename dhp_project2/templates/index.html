@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url("https://a-static.besthdwallpaper.com/many-colorful-butterflies-wallpaper-5120x3200-28182_10.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    place-items: center;
+    text-decoration-color: aliceblue;
+}
+.body-content {
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Dark transparent background */
+    padding: 20px;
+    text-align: center;
+    width:100%;
+    height: 100%;
+    place-items: center;
+    background-attachment: fixed;
+}
+
+header {
+    color: #bbdd20;
+    text-align: center;
+    width: 100%;
+}
+
+.heading {
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Roboto';
+}
+
+main {
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.content div {
+    flex: 1;
+    padding: 20px;
+    /* height:200px; */
+}
+
+#demo-description {
+    width: 50%;
+    color: rgb(244, 244, 238);
+    font-size: larger;
+    justify-content: center;
+    text-align: center;
+}
+
+#demo-description h5 {
+    font-family: 'Roboto';
+    font-size: 55px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#demo-description p {
+    font-size: xx-large;
+    margin: 2px;
+}
+
+
+#demo-image {
+    width: 50%;
+    height: auto
+}
+
+#demo-image img{
+    width: 80%;
+    margin: 0 auto;
+    border: #23bcbf;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgb(129, 5, 154);
+}
+
+button {
+    background-color: #007bff;
+    color: #f7fcf6;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 10%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: rgb(2, 25, 43);
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+    
+
+}
+
+#both {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    width: 500px;
+
+
+}
+
+.developer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.developer .about {
+    margin-left: 20px;
+    text-align: center;
+
+}
+
+.developer img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+</style>
+</head>
+
+<body>
+    <div class="body-content">
+        <header>
+            <div class="heading">
+                <div>
+                    <h1>Edit your photos with Amazee</h1>
+                    <p>Beautify your images with our free image editor(Amazee). Upload, edit and share. </p>
+                </div>
+        </header>
+        <main>
+            <div class="content">
+                <div id="demo-description">
+                    <br>
+                    <br>
+                    <h5>Apply filters</h5>
+                    <p>Give a new look to your pictures.<br>
+                        Rotate, Crop, Blur, Adjust brightness, Markup and make collages with celebriteis.</pr>
+                </div>
+
+                <div id="demo-image">
+                    <img src="https://github.com/PallaviMaurya8922/dhp_project2/blob/main/demo-image.jpg?raw=true" alt="Sample">
+                </div>
+            </div>
+            <button onclick="window.location.href='/result'">Start editing</button>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="head">
+                    <h2>Develepor Team</h2>
+                </div>
+                <div id="both">
+                    <div class="developer">
+
+                        <div class="img">
+                            <img src="https://media.licdn.com/dms/image/D4D03AQFjRoxWlSiIAw/profile-displayphoto-shrink_400_400/0/1694521379310?e=1717027200&v=beta&t=VjRskD21BCIq7nA67yfXNS5ZDn812ivQY4wejvUlshI" alt="anamika">
+                        </div>
+                        <div class="about">
+                            <h3>Anamika Kumari</h3>
+                            <p>B.Tech Ist Year</p>
+                            <p>Backend Develepor</p>
+                        </div>
+                    </div>
+
+                    <div class="developer">
+                        <div class="img">
+                            <img src="https://media.licdn.com/dms/image/D4D03AQH_Nlvw88iBLQ/profile-displayphoto-shrink_400_400/0/1700280326040?e=1717027200&v=beta&t=NN8vZ0CA1vxlIUM8PAFxET1fgvCQuQESd2oR6_1JeFk" alt="pallavi">
+                        </div>
+                        <div class="about">
+                            <h3>Pallavi Maurya</h3>
+                            <p>B.Tech Ist Year</p>
+                            <p>Frontend Develepor</p>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+    </div>
+</body>
+
+</html>
