@@ -7,9 +7,6 @@ import requests
 
 app = Flask(__name__)
 
-# Explicitly specify the path to the static directory
-STATIC_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), 'static'))
-
 @app.route('/')
 def index():
     return render_template('index.html')
